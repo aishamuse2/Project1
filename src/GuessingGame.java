@@ -5,7 +5,7 @@ public class GuessingGame {
     public GuessingGame() {
         Scanner input = new Scanner(System.in);
         boolean correctGuess = false;
-        boolean guess = false;
+        int guess = 0;
         int increment = 0;
         System.out.println("Hello user, What is your name?");
         String name = input.nextLine();
@@ -17,7 +17,7 @@ public class GuessingGame {
         while(!correctGuess) {
             ++increment;
 
-            int guess;
+
             try {
                 guess = input.nextInt();
             } catch (Exception var10) {

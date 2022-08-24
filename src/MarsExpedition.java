@@ -49,4 +49,7 @@ public class MarsExpedition {
 
         System.out.println("Your expedition team is now ready\nLed by " + name + " with " + teamSize + " teammates.\nTo explore the surface of Mars using " + vehicleChoice + ".\nExploration team heads out in\n5....\n4....\n3....\n2....\n1....\nGO GO GO!");
     }
+
+
+
 }
